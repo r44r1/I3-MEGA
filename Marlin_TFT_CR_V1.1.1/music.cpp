@@ -47,24 +47,24 @@ int noteDurations[] = {
 
 void PowerOnMusic()
 {
-	for (int thisNote = 0; thisNote <8; thisNote++) {
+	/* for (int thisNote = 0; thisNote <8; thisNote++) {
     int noteDuration = 1000/noteDurations[thisNote];
     tone(Beeper_pin, melody[thisNote],noteDuration);
     int pauseBetweenNotes = noteDuration * 2;
 	delay(pauseBetweenNotes);
 	noTone(8);
-	}
+	} */
 }
 
 void PowerOFFMusic()
 {
-	for (int thisNote = 0; thisNote <8; thisNote++) {
+	/* for (int thisNote = 0; thisNote <8; thisNote++) {
     int noteDuration = 1000/noteDurations[thisNote];
     tone(Beeper_pin, printdone[thisNote],noteDuration);
     int pauseBetweenNotes = noteDuration*2 ;
 	delay(pauseBetweenNotes);
 	noTone(8);
-	}
+	} */
 }
 
 void FilamentLack()
